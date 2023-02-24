@@ -15,4 +15,4 @@ pip install -r requirements.txt
 python3 manage.py runserver
 
 # Demo
-![Pages] (Снимок экрана 2023-02-24 в 22.31.37.png)
+![Pages](Снимок экрана 2023-02-24 в 22.31.37.png)
