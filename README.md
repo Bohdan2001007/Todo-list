@@ -19,6 +19,8 @@ python3 manage.py runserver
 
 ![Page2](https://github.com/Bohdan2001007/Todo-list/blob/main/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202023-02-24%20%D0%B2%2023.21.40.png)
 
+![Page3](https://github.com/Bohdan2001007/Todo-list/blob/main/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202023-02-24%20%D0%B2%2022.31.55.png)
+
 ![Page4](https://github.com/Bohdan2001007/Todo-list/blob/main/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202023-02-24%20%D0%B2%2022.32.10.png)
 
 ![Page5](https://github.com/Bohdan2001007/Todo-list/blob/main/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202023-02-24%20%D0%B2%2022.32.14.png)
