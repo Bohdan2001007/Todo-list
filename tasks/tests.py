@@ -39,14 +39,14 @@ class CreateTaskTests(TestCase):
 
 
 class DataTagsTests(TestCase):
-    def test_get_tags_data(self):
+    def test_get_tags_data(self) -> None:
         response = self.client.get(TAG_URL)
 
         self.assertEqual(response.status_code, 200)
 
 
 class CreateTagTests(TestCase):
-    def test_create_tag(self):
+    def test_create_tag(self) -> None:
         self.tag = Tag.objects.create(
             name="test",
         )
