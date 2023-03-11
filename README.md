@@ -27,17 +27,13 @@ python3 manage.py runserver
 
 ![Page2](/static/Page2.png)
 
-![Page3](/static/Page3.png)
+![Page3](/static/Page5.png)
 
-![Page4](/static/Page4.png)
+![Page4](/static/Page6.png)
 
-![Page5](/static/Page5.png)
+![Page5](/static/Page7.png)
 
-![Page6](/static/Page6.png)
+![Page6](/static/Page8.png)
 
-![Page7](/static/Page7.png)
-
-![Page8](/static/Page8.png)
-
-![Page9](/static/Page9.png)
+![Page7](/static/Page9.png)
 
