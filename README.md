@@ -23,20 +23,21 @@ python3 manage.py runserver
 - You need to create .env file to store your own secret information
 
 # Demo
-![Page1](/static/Снимок экрана 2023-02-24 в 22.31.37.png)
+![Page1](/static/Page1.png)
 
-![Page2](/static/Снимок экрана 2023-02-24 в 22.31.55.png)
+![Page2](/static/Page2.png)
 
-![Page3](/static/Снимок экрана 2023-02-24 в 22.32.06.png)
+![Page3](/static/Page3.png)
 
-![Page4](/static/Снимок экрана 2023-02-24 в 22.32.10.png)
+![Page4](/static/Page4.png)
 
-![Page5](/static/Снимок экрана 2023-02-24 в 22.32.14.png)
+![Page5](/static/Page5.png)
 
-![Page6](/static/Снимок экрана 2023-02-24 в 22.32.19.png)
+![Page6](/static/Page6.png)
 
-![Page7](/static/Снимок экрана 2023-02-24 в 22.32.22.png)
+![Page7](/static/Page7.png)
 
-![Page8](/static/Снимок экрана 2023-02-24 в 22.32.26.png)
+![Page8](/static/Page8.png)
 
-![Page9](/static/Снимок экрана 2023-02-24 в 23.21.40.png)
+![Page9](/static/Page9.png)
+
