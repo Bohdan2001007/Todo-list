@@ -1,7 +1,7 @@
 from django.http import HttpResponseRedirect
-from django.shortcuts import get_object_or_404
+from django.shortcuts import get_object_or_404, redirect
 from django.urls import reverse_lazy
-from django.views import generic
+from django.views import generic, View
 
 from tasks.models import Task, Tag
 
@@ -58,17 +58,16 @@ class TagDeleteView(generic.DeleteView):
     template_name = "tasks/tag_form_confirm_delete.html"
 
 
-class TagTaskListView(generic.ListView):
-    model = Task
-    fields = "__all__"
-    success_url = reverse_lazy("tasks:TaskListView")
-
-    def get(self, request, *args, **kwargs) -> HttpResponseRedirect:
-
-        task = get_object_or_404(Task, pk=self.kwargs["pk"])
-        if task.is_done is True:
-            task.is_done = False
-        else:
-            task.is_done = True
+class TaskStatusUpdateView(View):
+    def get(self, request, pk):
+        task = Task.objects.get(id=pk)
+        task.is_done = not task.is_done
         task.save()
-        return HttpResponseRedirect(reverse_lazy("tasks:TaskListView"))
+
+        return redirect("tasks:TaskListView")
+
+    def post(self, request, pk):
+        task = Task.objects.get(id=pk)
+        task.is_done = request.POST.get("is_done", not task.is_done)
+        task.save()
+        return redirect("tasks:TaskListView")

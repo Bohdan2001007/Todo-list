@@ -35,7 +35,7 @@ class CreateTaskTests(TestCase):
 
         all_tasks = Task.objects.all()
         self.assertEqual(response.status_code, 200)
-        self.assertEqual((list(all_tasks)), list(all_tasks))
+        self.assertEqual(list(response.context["tasks_list"]), list(all_tasks))
 
 
 class DataTagsTests(TestCase):
