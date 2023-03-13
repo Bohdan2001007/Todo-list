@@ -54,4 +54,4 @@ class CreateTagTests(TestCase):
 
         all_tags = Tag.objects.all()
         self.assertEqual(response.status_code, 200)
-        self.assertEqual(list(all_tags), list(all_tags))
+        self.assertEqual(list(response.context["tags_list"]), list(all_tags))
