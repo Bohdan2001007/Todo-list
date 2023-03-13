@@ -57,16 +57,9 @@ class TagDeleteView(generic.DeleteView):
 
 
 class TaskStatusUpdateView(View):
-    def get(self, request, pk):
-        task = Task.objects.get(id=pk)
-        task.is_done = not task.is_done
-        task.save()
-
-        return redirect("tasks:TaskListView")
-
     def post(self, request, pk):
         task = Task.objects.get(id=pk)
         task.is_done = not task.is_done
-        task.is_done = request.POST.get("is_done", not task.is_done)
+        task.is_done = request.POST("is_done", not task.is_done)
         task.save()
         return redirect("tasks:TaskListView")
