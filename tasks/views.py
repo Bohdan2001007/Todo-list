@@ -60,6 +60,5 @@ class TaskStatusUpdateView(View):
     def post(self, request, pk):
         task = Task.objects.get(id=pk)
         task.is_done = not task.is_done
-        task.is_done = request.POST("is_done", not task.is_done)
         task.save()
         return redirect("tasks:TaskListView")
