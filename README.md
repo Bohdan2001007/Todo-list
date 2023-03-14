@@ -18,9 +18,11 @@ python3 manage.py runserver
 
 # Secret information
 
-- Secret information, like secret key stored in .env file. Sample storage in .env_sample
+- Secret information, like SECRET_KEY stored in .env file.
 
-- You need to create .env file to store your own secret information
+- An example of storing secret information is in the file .env_sample.
+
+- You can also create your own .env file and save your secret information in it, as in the example.
 
 # Demo
 ![Page1](/static/Page1.png)
